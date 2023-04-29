@@ -9,7 +9,7 @@ Simple text editor gui application written in C with the help of Gtk+.
 
 # Screenshot
 
-![](./screenshot/App.png)
+![](./screenshot.png)
 
 # How to build and Install application
 
