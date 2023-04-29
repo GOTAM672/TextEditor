@@ -11,37 +11,18 @@ Simple text editor gui application written in C with the help of Gtk+.
 
 ![](./screenshot.png)
 
-# How to build and Install application
+The first step before we start with actual coding consists of setting up PyGObject and its dependencies. PyGObject is a Python module that enables developers to access GObject-based libraries such as GTK+ within Python. It exclusively supports GTK+ version 3 or later.
 
-### Using GNOME Builder.
+# Dependencies
 
- you can use [GNOME Builder](https://wiki.gnome.org/Apps/Builder) to builder project.
- 
- step1: Clone repo into gnome builder.</br>
- step2: Press Run button.
+Setting up PyGObject and its dependencies. PyGObject is a Python module that enables developers to access GObject-based libraries such as GTK+ within Python. It exclusively supports GTK+ version 3 or later.
 
-### Using Meson
+- GTK+3
+- Python 2 (2.6 or later) or Python 3 (3.1 or later)
+- gobject-introspection
 
-```bash
-git clone https://github.com/GOTAM672/Bye-Bye.git
-cd Bye-Bye
-meson setup builddir
-meson compile
-sudo meson install
-# To run application
-./bye-bye
-```
+# How to run application
 
-### Install using Meson into /usr/local path permanently
+Execute ```python main.py``` command in terminal.
 
-```bash
-git clone https://github.com/GOTAM672/Bye-Bye.git
-cd Bye-Bye
-mkdir build
-cd build
-meson .. --buildtype=release --prefix=/usr/local -Dc_args=-O2 -Dcpp_args=-O2
-ninja
-sudo ninja install
-# To run application 
-bye-bye
-```
+
