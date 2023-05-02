@@ -1,5 +1,5 @@
 # TextEditor
-Simple text editor gui application written in C with the help of Gtk+.
+Simple text editor gui application written in python with the help of Gtk+.
 
 # What I Learned
 
